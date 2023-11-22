@@ -1,0 +1,2 @@
+ logger.info('Получение списка использованных на кошельках сетей...')
+    chains = list(get_chains(node_process, session, wallets))
